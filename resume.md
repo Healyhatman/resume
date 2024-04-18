@@ -80,15 +80,15 @@ title: Kamron Brooks
 - Implemented a system that generates polished PDF statements, delivering clear and comprehensible financial reports to clients.
 
 ###### Screenshots
-![Home care package statement](/images/caremaster/home_care_package_statement.png "Home Care Package statement")
+![Home care package statement](./images/caremaster/home_care_package_statement.png "Home Care Package statement")
 
 *A generated home care package statement PDF cover page. Please note that this is using a fake client with seeded data, so there are no privacy implications.*
 
-![Visualised payroll suggestions](/images/caremaster/visualised_payroll_suggestions.png "Visualised payroll suggestions")
+![Visualised payroll suggestions](./images/caremaster/visualised_payroll_suggestions.png "Visualised payroll suggestions")
 
 *A Google Charts driven visualisation of the payroll shift, individual payment periods with types, and parent support times from which they were made.*
 
-![Payroll suggestions for Xero](/images/caremaster/xero_payroll_suggestions.png "Xero payroll suggestions")
+![Payroll suggestions for Xero](./images/caremaster/xero_payroll_suggestions.png "Xero payroll suggestions")
 
 *Suggestions generated for a Xero Timesheet entry for a given (fake) worker, including Shift rates and overtime. Allowances in Xero are applied to the payslip itself at a later stage.*
 
