@@ -1,5 +1,5 @@
 ---
-Kamron Brooks
+title: Kamron Brooks
 ---
 ###### [ [👨‍💻 Github](https://www.github.com/healyhatman) ] - [ [🌐 Web](https://skyspider.com.au) ] - [ 📧 kamron@skyspider.com.au ] - [📞 0438 KAMRON (526 766) ]
 #### Full Stack Developer | Expert in Laravel/PHP, SQL Server | Xero & KeyPay Integration Specialist | Vue.js & TypeScript Enthusiast
@@ -7,6 +7,7 @@ Kamron Brooks
 ## Skills
 ```Laravel```
 ```PHP```
+```Testing Frameworks [ PHPUnit | Cypress ]```
 ```SQL Server```
 ```Typescript```
 ```Vue```
