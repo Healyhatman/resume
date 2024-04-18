@@ -1,8 +1,8 @@
 ---
-title: Kamron Brooks
+Kamron Brooks
 ---
 ###### [ [👨‍💻 Github](https://www.github.com/healyhatman) ] - [ [🌐 Web](https://skyspider.com.au) ] - [ 📧 kamron@skyspider.com.au ] - [📞 0438 KAMRON (526 766) ]
-#### Experienced project manager with a track record of delivering high-quality results on time and within budget.
+#### Full Stack Developer | Expert in Laravel/PHP, SQL Server | Xero & KeyPay Integration Specialist | Vue.js & TypeScript Enthusiast
 
 ## Skills
 ```Laravel```
@@ -11,6 +11,7 @@ title: Kamron Brooks
 ```Typescript```
 ```Vue```
 ```API Integration [ Xero | KeyPay | Dex ]```
+```Git```
 ```SCHADS Award```
 ```Jira | Bitbucket | Confluence```
 
@@ -76,6 +77,11 @@ title: Kamron Brooks
 - Engineered a robust solution to meticulously track income and expenditures for participants with Home Care Packages, ensuring accuracy and transparency.
 
 - Implemented a system that generates polished PDF statements, delivering clear and comprehensible financial reports to clients.
+
+###### Screenshots
+![Home care package statement](/images/caremaster/home_care_package_statement.png "Home Care Package statement")
+![Visualised payroll suggestions](/images/caremaster/Visualised_payroll_suggestions.png "Visualised payroll suggestions")
+![Payroll suggestions for Xero](/images/caremaster/xero_payroll_suggestions.png "Xero payroll suggestions")
 
 ## Projects
 **[*oauth2-keypay*](https://github.com/Healyhatman/oauth2-keypay)**
