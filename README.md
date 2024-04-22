@@ -1,69 +1,108 @@
-# Resume-md
+---
+title: Kamron Brooks
+---
+###### [ [👨‍💻 Github](https://www.github.com/healyhatman) ] - [ [🌐 Web](https://skyspider.com.au) ] - [ 📧 kamron@skyspider.com.au ] - [📞 0438 KAMRON (526 766) ]
+#### Full Stack Developer | Expert in Laravel/PHP, SQL Server | Xero & KeyPay Integration Specialist | Vue.js & TypeScript Enthusiast
 
-This project allows you to write and maintain your resume in markdown. GitHub
-Actions is used to generate stylized PDF and HTML files based on `resume.md`
-and `style.css`. The stylized files are found as outputs in the `Releases`
-section, the HTML file is also deployed as a static website using GitHub Pages.
+## Skills
+```Laravel```
+```PHP```
+```Testing Frameworks [ PHPUnit | Cypress ]```
+```SQL Server```
+```Typescript```
+```Vue```
+```API Integration [ Xero | KeyPay | Dex ]```
+```Git```
+```SCHADS Award```
+```Jira | Bitbucket | Confluence```
 
-This project is useful for anyone looking to create a professional-looking
-resume quickly and easily, and is especially beneficial for those with
-technical backgrounds who are familiar with markdown. With this project, you
-can focus on the content of your resume rather than worrying about formatting
-and deployment.
+**Languages**: PHP, Javascript / TypeScript
+**Databases**: SQL Server, MySQL
+**Tools**: Git
 
+## Experience
+### CareMaster Global Pty Ltd
+#### Full stack developer, Jun 2019 - Apr 2024
 
-## Usage
+##### Key responsibilities
+- Developed and maintained robust backend systems using Laravel/PHP and SQL Server, prioritizing performance, scalability, and reliability.
+- Developed a Xero-connected payroll system with award interpretation in consultation with Fair Work Australia
+- Implemented comprehensive PHPUnit tests to validate backend functionality and uphold code quality standards.
+- Designed and developed interactive frontend interfaces using Vue.js and TypeScript, enhancing user experience and usability.
+- Conducted query optimization to enhance database performance, particularly with complex queries, improving efficiency and responsiveness.
+- Created custom reports to export data in PDF and .xlsx formats, ensuring accessibility and usability of critical information.
 
+##### Notable technical achievements
 
-### GitHub
+###### Xero Integration
+- Led the successful development and certification of a comprehensive Xero integration, enabling seamless data synchronization and financial management.
+- Achieved certification as an official Xero App Partner, demonstrating expertise in integration design and compliance with Xero's standards.
+- Collaborated closely with stakeholders to understand business requirements and deliver a tailored integration solution that met client needs.
+- Implemented robust security measures and data handling practices to ensure the integrity and privacy of financial information exchanged with Xero.
+- Provided ongoing support and maintenance for the Xero integration, including updates to accommodate platform changes and feature enhancements.
 
-1. Generate a new project using this repository as a template. **Make sure to include all branches!**
-2. Enable Read/Write Workflow permissions under `Settings` -> `Actions` for Pages deployment.
-3. Edit the `resume.md` file with your resume content using Markdown.
-4. Commit and push the changes.
-5. Wait for the GitHub Actions to run. This will generate the PDF and HTML files and deploy
-the HTML file as a static website.
-6. Access the PDF and HTML in the `Releases` section.
-7. Access your resume as a static website by going to `https://<your-github-username>.github.io/<repository-name>`.
+###### Keypay Integration
+- Successfully applied as a KeyPay developer partner
+- Developed an OAuth 2.0 client to allow secure tokenised communication with the KeyPay API
+- Generated a comprehensive integration using the OpenAPI v2 specification provided, with modifications to allow for ODAta queries, using OpenAPI generator 
 
+###### DEX Integration
+- Developed solution to sync client and session data to and from the Data Exchange system via the DEX API.
+  - Sync and search clients
+  - Create and update cases and attached sessions
+  - Sync and enforce activity requirements
+ 
+###### Payroll
+- Engineered a comprehensive payroll system from inception, ensuring compliance with the Social, Community, Home Care and Disability Services, and Children's Services awards.
+- Collaborate effectively with Fair Work Australia to ensure edge cases generate accurate recommendations  
+- Expertly manages complex payroll calculations ensuring precision and accuracy.
+  - Hours worked
+  - Overtime
+  - Penalty and public holiday rates
+  - Allowances
 
-### Local
+- Collaborated effectively with diverse systems to offer seamless payroll integrations:
+  - Xero (via API)
+  - KeyPay (via API; repository at [github.com/Healyhatman/keypay-php](https://github.com/Healyhatman/keypay-php))
+  - Elmo (via .csv)
+  - MYOB (via .csv)
+  - Reckon (via .iif and .csv)
 
-`Resume-md` uses [`nix`](https://www.nixos.org) to manage all dependencies and
-to produce build outputs. As a result, any machine with `nix` installed can run
-a simple build command to produce the stylized resumes.
-```shell
-nix build
-```
+###### Invoicing
+- Generated precise invoices based on verified participant supports for Plan Managed and other services, ensuring accuracy and compliance.
 
-This will place the stylized files along side the original markdown file in
-`result/resume/`:
-```shell
- result
-└──  resume
-    ├──  resume.html
-    ├──  resume.md
-    └──  resume.pdf
-```
+- Implemented seamless integration with financial systems:
+  - Synchronized invoices with Xero for streamlined financial management.
+  - Exported invoices to .iif/.csv formats compatible with MYOB and Reckon.
 
-## GitHub Pages
+###### Home Care Packages
+- Engineered a robust solution to meticulously track income and expenditures for participants with Home Care Packages, ensuring accuracy and transparency.
 
-GitHub Pages is used to deploy the stylized HTML file as a static site. For this to work,
-the Workflow Permissions MUST be set to read/write and the repository must be public or
-the user a pro user. If you forked this repository or didn't copy the branches during generation,
-you will need to point the pages deployment to the `gh-pages` branch under the `Pages` settings.
+- Implemented a system that generates polished PDF statements, delivering clear and comprehensible financial reports to clients.
 
+###### Screenshots
+![Home care package statement](./images/caremaster/home_care_package_statement.png "Home Care Package statement")
 
-## Customization
+*A generated home care package statement PDF cover page. Please note that this is using a fake client with seeded data, so there are no privacy implications.*
 
-You can customize the stylized PDF and HTML output by editing `style.css`.
+![Visualised payroll suggestions](./images/caremaster/visualised_payroll_suggestions.png "Visualised payroll suggestions")
 
+*A Google Charts driven visualisation of the payroll shift, individual payment periods with types, and parent support times from which they were made.*
 
-### Default Look
+![Payroll suggestions for Xero](./images/caremaster/xero_payroll_suggestions.png "Xero payroll suggestions")
 
-![demo](./demo.png)
+*Suggestions generated for a Xero Timesheet entry for a given (fake) worker, including Shift rates and overtime. Allowances in Xero are applied to the payslip itself at a later stage.*
 
+## Projects
+**[*oauth2-keypay*](https://github.com/Healyhatman/oauth2-keypay)**
 
-## Credits
+Provides KeyPay OAuth 2.0 supoport for the PHP League's OAuth 2.0 Client
 
-Originally inspired by [vidluther's project](https://github.com/vidluther/markdown-resume).
+**[*keypay-php*](https://github.com/Healyhatman/keypay-php)**
+
+A client library for the KeyPay API, built from the provided OpenAPI v2 specification using the OpenAPI Generator
+
+## Education
+
+### Swinburne University
+**Degree:** Bachelor of Technology (Information Systems) with minors in Business and Economics | **Years Attended:** 2013-2016 | **Attended via:** Open Universities

@@ -5,7 +5,7 @@ on:
       - master
     paths:
       - flake.*
-      - resume.md
+      - README.md
       - style.css
 jobs:
   generate:
