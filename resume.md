@@ -26,6 +26,7 @@ title: Kamron Brooks
 
 ##### Key responsibilities
 - Developed and maintained robust backend systems using Laravel/PHP and SQL Server, prioritizing performance, scalability, and reliability.
+- Developed a Xero-connected payroll system with award interpretation in consultation with Fair Work Australia
 - Implemented comprehensive PHPUnit tests to validate backend functionality and uphold code quality standards.
 - Designed and developed interactive frontend interfaces using Vue.js and TypeScript, enhancing user experience and usability.
 - Conducted query optimization to enhance database performance, particularly with complex queries, improving efficiency and responsiveness.
